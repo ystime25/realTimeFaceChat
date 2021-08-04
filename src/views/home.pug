@@ -7,9 +7,13 @@ html(lang="kr")
         link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css")
         link(rel = "stylesheet", href="https://unpkg.com/mvp.css")
         base(href="/")
-        title FaceMing
+        title Face Ming
     body 
         header Face Ming
         main
+            div#userStream
+                video#userFace(autoplay, playsinline, width="400", height="400")
+                button#muteBtn 음소거
+                button#cameraBtn 카메라 끄기
         script(src="/socket.io/socket.io.js")   
         script(src="/public/js/app.js")
