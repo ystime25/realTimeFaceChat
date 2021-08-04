@@ -1,0 +1,41 @@
+{
+  "name": "realtimefacechat",
+  "version": "1.0.0",
+  "description": "Make face chat with nodeJS Socket.io and WebRTC",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ystime25/realTimeFaceChat.git"
+  },
+  "author": "Youn Seok Lee <ystime25@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ystime25/realTimeFaceChat/issues"
+  },
+  "homepage": "https://github.com/ystime25/realTimeFaceChat#readme",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.14.9",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
